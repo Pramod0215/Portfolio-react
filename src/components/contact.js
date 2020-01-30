@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-
+// import { Container, Row, Col, Image } from 'react-bootstrap';
+import pramod1 from '../components/pramod1.jpg'
 
 class Contact extends Component {
   render() {
@@ -10,7 +11,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Pramod Ray</h2>
             <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+              src={pramod1}
               alt="avatar"
               style={{height: '250px'}}
                />

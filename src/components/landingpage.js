@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import pramod1 from '../components/pramod1.jpg'
+import pramod1 from '../components/pramod1.jpg';
+
 
 class Landing extends Component {
   render() {
@@ -11,7 +12,7 @@ class Landing extends Component {
             <img
               src={pramod1}
               alt="Pramod"
-              style={{width:"200px" ,height:"300px"}}
+              style={{width:"200px" ,height:"300px" ,marginTop:'30px'}}
               // className="avatar-img"
               />
 

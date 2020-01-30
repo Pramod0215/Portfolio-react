@@ -16,7 +16,7 @@ class Projects extends Component {
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Cab Allocation System</CardTitle>
-            <CardText>
+            <CardText style={{width:'300px',overflow:'hidden', textOverflow:'ellipsis', }}>
             A User Interaction is designed where Customers are provided with a feature to book and end the rides on this service and Drivers that are not involved in any ongoing ride are provided with a choice to accept the Customer’s ride or not.
             </CardText>
             <CardActions border>
@@ -45,8 +45,10 @@ class Projects extends Component {
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Student List</CardTitle>
-            <CardText>
+            <CardText >
              Get the data from database and perform operation (Add, delete, Update).
+
+
             </CardText>
             <CardActions border>
             <a class="btn btn-primary" href="https://github.com/Pramod0215/studentlist" role="button">GitHub</a> 

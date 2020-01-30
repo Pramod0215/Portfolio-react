@@ -18,6 +18,8 @@
 
 .projects-grid {
   display: flex;
+  background-image: url(https://images.unsplash.com/photo-1492760864391-753aaae87234?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
 }
 
 /* Resume Page css */
@@ -36,6 +38,8 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
+  background-image: url(https://images.unsplash.com/photo-1492760864391-753aaae87234?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
 }
 
 .contact-grid {
@@ -46,6 +50,7 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+  background-image: url(https://images.unsplash.com/photo-1492760864391-753aaae87234?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 }
 
 .contact-grid h2 {
@@ -157,6 +162,8 @@ social-links-1{
   padding-right: 30px;
 
 }
+
+
 
 
 
