@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import pramod1 from '../components/pramod1.jpg'
 
 
 class Resume extends Component {
@@ -12,11 +13,13 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
-              <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{height: '200px'}}
-                 />
+            <img
+              src={pramod1}
+              alt="Pramod"
+              style={{width:"200px" ,height:"300px"}}
+              // className="avatar-img"
+              />
+             
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Pramod Ray</h2>
@@ -31,7 +34,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>pramodray0215@gmail.com</p>
             <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>GitHub: https://github.com/Pramod0215</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
