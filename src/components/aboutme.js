@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
 import pramod1 from '../components/pramod1.jpg'
 
 
@@ -10,15 +9,9 @@ class About extends Component {
 
         <div className='About-content'>
           <div className='image'>
-            <Container>
-              <Row>
-
-                <Col xs={6} md={4}>
-                  <Image height='200px' width='200px' src={pramod1} thumbnail />
-                </Col>
-
-              </Row>
-            </Container></div>
+           
+                  <img height='300px' width='200px' src={pramod1}  />
+                </div>
           <h1>I am Pramod Ray</h1>
           <p style={{fontWeight:'30px'}}><b>I am a Frontend Developer. I like dabbling in varrious parts and<br></br>
             Frontend development and like to learn
