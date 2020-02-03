@@ -71,15 +71,15 @@ class Resume extends Component {
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript/Ajax"
+                skill="Reactjs"
                 progress={80}
                 />
                 <Skills
-                  skill="HTML/CSS"
-                  progress={80}
+                  skill="JavaScript/Ajax"
+                  progress={70}
                   />
                     <Skills
-                      skill="React"
+                      skill="Html/CSS"
                       progress={70}
                       />
                       <Skills skill="Python/Django" progress={60}/>
