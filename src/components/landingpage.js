@@ -12,7 +12,7 @@ class Landing extends Component {
             <img
               src={pramod1}
               alt="Pramod"
-              style={{width:"200px" ,height:"300px" ,marginTop:'30px'}}
+              style={{width:"200px" ,height:"300px" ,marginTop:'70px', borderRadius:'100%'}}
               // className="avatar-img"
               />
 

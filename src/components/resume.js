@@ -15,7 +15,7 @@ class Resume extends Component {
             <div style={{textAlign: 'center'}}>
             <img
               src={pramod1}
-              alt="Pramod"
+              alt="pramod"
               style={{width:"200px" ,height:"300px"}}
               // className="avatar-img"
               />
