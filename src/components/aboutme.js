@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import pramod1 from '../components/pramod1.jpg'
+import pramod1 from '../components/Image/pramod1.jpg';
 
 
 class About extends Component {
@@ -10,13 +10,13 @@ class About extends Component {
         <div className='About-content'>
           <div className='image'>
            
-                  <img height='300px' width='200px' src={pramod1}  />
+                  <img height='300px' width='200px' src={pramod1} alt='profile-img' />
                 </div>
           <h1>I am Pramod Ray</h1>
           <p style={{fontWeight:'30px'}}><b>I am a Frontend Developer. I like dabbling in varrious parts and<br></br>
             Frontend development and like to learn
         about new technology<br></br>  write technical blogs or play games in free time.</b> </p>
-          <div className="social-links1">
+          <div className="social-links1 margin-bottom-100">
 
             {/* LinkedIn */}
             <a href="https://www.linkedin.com/in/pramod-ray-2b7662192/" rel="noopener noreferrer" target="_blank">

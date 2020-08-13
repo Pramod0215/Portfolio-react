@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 // import { Container, Row, Col, Image } from 'react-bootstrap';
-import pramod1 from '../components/pramod1.jpg'
+import pramod1 from '../components/Image/pramod1.jpg';
 
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-body">
+      <div className="contact-body scroll-y ">
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Pramod Ray</h2>
@@ -45,7 +45,7 @@ class Contact extends Component {
                   </ListItemContent>
                 </ListItem>
 
-                <ListItem>
+                <ListItem className='margin-bottom-100'>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
                     pramodray0215@gmail.com

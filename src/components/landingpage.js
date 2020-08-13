@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import pramod1 from '../components/pramod1.jpg';
+import pramod1 from '../components/Image/pramod1.jpg';
 
 
 class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid">
+        <Grid className="landing-grid scroll-y">
           <Cell col={12}>
             <img
               src={pramod1}
@@ -23,7 +23,7 @@ class Landing extends Component {
 
           <p>ReactJs | JavaScript | HTML/CSS | Python | Django | PostgreSql | Mysql | Java/C#</p>
 
-        <div className="social-links">
+        <div className="social-links margin-bottom-100">
 
           {/* LinkedIn */}
           <a href="https://www.linkedin.com/in/pramod-ray-2b7662192/" rel="noopener noreferrer" target="_blank">

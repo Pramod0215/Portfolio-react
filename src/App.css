@@ -162,7 +162,12 @@ social-links-1{
   padding-right: 30px;
 
 }
-
+.scroll-y{
+  overflow-y: scroll;
+}
+.margin-bottom-100{
+  margin-bottom: 100px;
+}
 
 
 

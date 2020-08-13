@@ -3,7 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-import pramod1 from '../components/pramod1.jpg'
+import pramod1 from '../components/Image/pramod1.jpg';
 
 
 class Resume extends Component {
@@ -30,7 +30,7 @@ class Resume extends Component {
             <h5>Address</h5>
             <p>#08 Arun Niwas, 1st cross, Tawrekere Bus stand Bengaluru-560029</p>
             <h5>Phone</h5>
-            <p>(91) 8383094849</p>
+            <p>(91) 8483094849</p>
             <h5>Email</h5>
             <p>pramodray0215@gmail.com</p>
             <h5>Web</h5>
@@ -39,6 +39,23 @@ class Resume extends Component {
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
+
+          <h2>Experience</h2>
+              <Experience
+              startYear={'03/2020'}
+              endYear={'current'}
+              jobName="Full-stack Developer"
+              jobDescription="Pedals Up
+             Ahmedabad, Gujrat • 03/2020 - Current"
+            />
+            <Experience
+              startYear={'09/2019'}
+              endYear={'03/2020'}
+              jobName="Full-stack Trainee"
+              jobDescription="Real Time Skills Private Limited - Full Stack Engineer
+              in Training
+              Bengaluru, KA • 09/2019 - Current"
+            />
             <h2>Education</h2>
 
 
@@ -48,7 +65,7 @@ class Resume extends Component {
               schoolName="Visvesvaraya Technological University"
               schoolDescription="I have completed graduation in 2018 from Bheemanna Khandre Institute of Technology, Bhalki. My stream is Electronics and Communications Engineering. I got 57% marks."
                />
-
+               
                <Education
                  startYear={2011}
                  endYear={2014}
@@ -57,19 +74,7 @@ class Resume extends Component {
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
-              <h2>Experience</h2>
-
-            <Experience
-              startYear={'09/2019'}
-              endYear={'current'}
-              jobName="Full-stack Trainee"
-              jobDescription="Real Time Skills Private Limited - Full Stack Engineer
-              in Training
-              Bengaluru, KA • 09/2019 - Current"
-            />
-
-              
-              <hr style={{borderTop: '3px solid #e22947'}} />
+              {/* <hr style={{borderTop: '3px solid #e22947'}} /> */}
               <h2>Skills</h2>
               <Skills
                 skill="Reactjs"
