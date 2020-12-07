@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 // import { Container, Row, Col, Image } from 'react-bootstrap';
-import pramod1 from '../components/Image/pramod1.jpg';
+import pramod1 from '../components/Image/pramod.jpg';
 
 class Contact extends Component {
   render() {
