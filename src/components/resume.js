@@ -65,7 +65,7 @@ class Resume extends Component {
               jobName="Full-stack Trainee"
               jobDescription="Real Time Skills Private Limited - Full Stack Engineer
               in Training
-              Bengaluru, KA • 09/2019 - Current"
+              Bengaluru, KA • 09/2019 - 03/2020"
             />
             <h2>Education</h2>
 
@@ -75,7 +75,6 @@ class Resume extends Component {
               schoolName="Visvesvaraya Technological University"
               schoolDescription="I have completed graduation in 2018 from Bheemanna Khandre Institute of Technology, Bhalki. My stream is Electronics and Communications Engineering. I got 57% marks."
             />
-
             <Education
               startYear={2011}
               endYear={2014}
@@ -83,7 +82,6 @@ class Resume extends Component {
               schoolDescription="I have completed intermediate in 2014 from C.p Thakur collage, Naibatpur, Patna(Bihar) I got 57% marks."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
-
             {/* <hr style={{borderTop: '3px solid #e22947'}} /> */}
             <h2>Skills</h2>
             <Skills skill="Reactjs" progress={80} />
