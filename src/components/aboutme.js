@@ -7,7 +7,7 @@ class About extends Component {
       <div className="About">
         <div className="About-content">
           <div className="image">
-            <img height="200px" width="200px" src={pramod1} alt="profile-img" />
+            <img height="200px" width="200px" src={pramod1} alt="profile-img" style={{borderRadius:'50%'}} />
           </div>
           <h1>I am Pramod Ray</h1>
           <p style={{ fontWeight: "30px",width:'50%' }}>
